@@ -1,6 +1,18 @@
+/**
+ * Class Класс для выполнения арифметических операция +, -, /, *.
+ *
+ * @author Dmitry Amelin (kindmaster2020@yandex.ru)
+ * @since 16.02.2020
+ * @version 1
+ */
 package ru.job4j.calculator;
 
 public class Calculator {
+    /**
+     * Конструктор, вывод строки в консоль.
+     *
+     * @param args - args.
+     */
     public static void main(String[] args) {
         int one = 1;
         int two = 2;
