@@ -6,7 +6,9 @@ public class Board {
             for (int cell = 0; cell < width; cell++){
                 if ((row + cell) % 2 == 0) {
                 System.out.print("X"); // печатаем Х, если сумма индексов четная
-                } else System.out.print(" "); // печатаем пробел, если сумма индексов нечетная
+                } else {
+                    System.out.print(" "); // печатаем пробел, если сумма индексов нечетная
+                }
             }
             System.out.println(); // добавляем перевод на новую строку
         }
