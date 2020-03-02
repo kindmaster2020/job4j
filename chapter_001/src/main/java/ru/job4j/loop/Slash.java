@@ -10,7 +10,9 @@ public class Slash {
                     System.out.print("O");
                 } else if (right) {
                     System.out.print("O");
-                } else System.out.print(" ");
+                } else {
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }
