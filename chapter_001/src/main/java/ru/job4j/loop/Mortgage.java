@@ -1,7 +1,7 @@
 package ru.job4j.loop;
 
 public class Mortgage {
-    public int year (int amount, int salary, double percent) {
+    public int year(int amount, int salary, double percent) {
         int year = 0;
         double annualPayment = amount + amount * 0.01 * percent; // сумма кредита (1-ый год)
         double restOfPayment = annualPayment - salary; // остаток по выплате (1-ый год)

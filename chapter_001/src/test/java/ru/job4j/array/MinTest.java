@@ -13,7 +13,7 @@ public class MinTest {
                 Min.findMin(
                         new int[] {0, 5, 10}
                 ),
-                is (0)
+                is(0)
         );
     }
 
@@ -23,7 +23,7 @@ public class MinTest {
                 Min.findMin(
                         new int[] {15, 6, 28}
                 ),
-                is (6)
+                is(6)
         );
     }
 
@@ -31,9 +31,9 @@ public class MinTest {
     public void whenLastMin() {
         assertThat(
                 Min.findMin(
-                        new int[] {56, 45,14}
+                        new int[] {56, 45, 14}
                 ),
-                is (14)
+                is(14)
         );
     }
 }
